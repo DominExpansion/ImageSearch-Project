@@ -1,0 +1,115 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#section1
+{
+ width: 100%;
+ height: 450px;
+ background-image: url(images/img1.jpg);
+ background-size: 100% 100%;
+
+}
+
+h1{
+ color: white;
+ font-size: 50px;
+ text-align: center;
+ padding-top: 12%;
+}
+
+
+
+.search-box{
+ width: 50%;
+ height: 45px;
+ margin-top: 1%;
+ margin-left: 25%;
+ direction: none;
+ border-radius: 50px;
+ padding-left: 15px;
+ background-color: white;
+ display: flex;
+
+}
+
+.search-box input{
+ width: 95%;
+ height: 80%;
+ border: none;
+ outline: none;
+ margin-top: 4px;
+ font-size: 17px;
+}
+
+#icon{
+
+font-size: 15px;
+}
+
+#btn{
+  border: none;
+  margin-top:1% ;
+  margin-right: 5%;
+  width: 25px;
+  height: 30px;
+  background-color: white;
+}
+
+
+
+#images{
+ columns: 4 300px;
+ max-width: 100%;
+
+ cursor: pointer;
+ background-color:rgb(200, 245, 245);
+ 
+}
+
+.imgs{
+  
+ overflow: hidden;
+ margin-bottom: 10px;
+ display: flex;
+ position: relative;
+ 
+
+}
+
+#photo{
+  margin-top: 2%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+ 
+
+}
+
+#photo:hover{
+ scale: 110%;
+}
+
+#load{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(21, 20, 20);
+  display: none;
+  margin-top: 1%;
+}
+
+
+  #more{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    margin-top: 1%;
+    margin-left: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+   
+  }
+
